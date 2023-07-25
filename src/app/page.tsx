@@ -4,16 +4,16 @@ export default function Home() {
   return (
     <main className="grid grid-cols-none pt-10 px-8 md:min-h-screen md:grid-cols-3 md:pt-20 md:px-16">
       <div className="col-span-2 md:justify-start">
-        <div className="flex flex-col md:flex-row-reverse ">
-          <div className="flex flex-col md:flex md:justify-start md:items-center">
-            <h1 className="font-sans text-3xl md:flex md:text-4xl">
-              I`m Matheus Cavagnari
+        <div className="flex flex-col gap-8 md:flex-row-reverse md:justify-end md:items-center ">
+          <div className="flex flex-col md:justify-start md:items-start ">
+            <h1 className="font-sans text-3xl md:text-4xl">
+              I`m Matheus Cavagnari!
             </h1>
-            <h2 className="font-sans text-2xl md:text-3xl">
+            <h2 className="font-sans text-2xl md:text-3xl text-gray-400 italic md:not-italic">
               Software Developer
             </h2>
           </div>
-          <div>
+          <div className="flex md:flex md:justify-start md:items-center">
             <Image
               className="rounded-3xl md:rounded-full md:border-2 md:border-white"
               alt="photo"
