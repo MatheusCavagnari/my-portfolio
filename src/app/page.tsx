@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="min-h-screen grid grid-cols-none  md:grid-cols-2">
-      <div>
-        <div className="flex flex-col md:flex-row-reverse">
-          <div className="">
-            <h1 className="font-sans text-3xl md:text-4xl">
+    <main className="grid grid-cols-none pt-10 px-8 md:min-h-screen md:grid-cols-3 md:pt-20 md:px-16">
+      <div className="col-span-2 md:justify-start">
+        <div className="flex flex-col md:flex-row-reverse ">
+          <div className="flex flex-col md:flex md:justify-start md:items-center">
+            <h1 className="font-sans text-3xl md:flex md:text-4xl">
               I`m Matheus Cavagnari
             </h1>
             <h2 className="font-sans text-2xl md:text-3xl">
