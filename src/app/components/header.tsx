@@ -4,9 +4,7 @@ export function Header() {
   return (
     <div className="flex flex-col gap-7 md:flex-row-reverse md:justify-end md:items-center ">
       <div className="flex flex-col md:justify-start md:items-start ">
-        <h1 className="font-sans text-3xl md:text-4xl">
-          I&apos;m Matheus Cavagnari!
-        </h1>
+        <h1 className="font-sans text-3xl md:text-4xl">Matheus Cavagnari!</h1>
         <h2 className="font-sans text-2xl md:text-3xl text-gray-400 italic md:not-italic">
           Software Developer
         </h2>
