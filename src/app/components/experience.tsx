@@ -8,7 +8,7 @@ export function Experience() {
         👨‍💻 Desenvolvedor Web apaixonado por tecnologia 👨‍💻
       </p>
 
-      <div>
+      <div className="flex items-center text-center mt-6">
         <p>Node.js | Nest.js | Next.js | TypeScript | JavaScript | Oracle</p>
       </div>
     </div>
